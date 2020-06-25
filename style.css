@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.heading {
+    position: relative;
+    bottom: 25px;
+    width: 600px;
+    text-align: center;
+    color: var(--Very-Dark-Blue);
+}
+
+#prim {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+#prim > strong {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#sec {
+    position: relative;
+    top: -20px;
+}
+
+#card {
+    position: relative;
+    height: 210px;
+    width: 280px;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 200;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px 0px rgba(163, 165, 174, 0.5);
+    color: var(--Very-Dark-Blue);
+    overflow: hidden;
+}
+
+#card > h3 {
+    font-weight: 600;
+}
+
+#card > p {
+    position: relative;
+    top: -8px;
+    font-weight: 400;
+}
+
+.card1 {
+    position: relative;
+    top: 130px;
+    right: 340px;
+    background-image: url(images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 160px;
+}
+
+.line1 {
+    background-color: var(--Cyan);
+    position: relative;
+    top: -18px;
+    left: -25px;
+    width: 350px;
+    height: 5px;
+}
+
+.card2 {
+    position: relative;
+    bottom: 250px;
+    background-image: url(images/icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 160px;
+}
+
+.line2 {
+    background-color: var(--Red);
+    position: relative;
+    top: -18px;
+    left: -25px;
+    width: 350px;
+    height: 5px;
+}
+
+.card3 {
+    position: relative;
+    bottom: 200px;
+    background-image: url(images/icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 160px;
+}
+
+.line3 {
+    background-color: var(--Orange);
+    position: relative;
+    top: -18px;
+    left: -25px;
+    width: 350px;
+    height: 5px;
+}
+
+.card4 {
+    position: relative;
+    left: 340px;
+    bottom: 620px;
+    background-image: url(images/icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 160px;
+}
+
+.line4 {
+    background-color: var(--Blue);
+    position: relative;
+    top: -18px;
+    left: -25px;
+    width: 350px;
+    height: 5px;
+}
+
+.cards{
+    height: 600px;
+}
