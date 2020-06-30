@@ -151,3 +151,41 @@ body {
 .cards{
     height: 600px;
 }
+
+@media screen and (max-width: 700px) {
+
+    .heading {
+        width: 400px;
+    }
+
+    #prim {
+        font-size: 25px;
+    }
+    
+    #prim > strong {
+        font-size: 25px;
+    }
+    
+    .card1 {
+        position: relative;
+        top: 300px;
+        left: 0px;
+    }
+
+    .card3 {
+        position: relative;
+        top: 100px;
+    }
+
+    .card4 {
+        position: relative;
+        left: 0px;
+        top: 160px;
+    }
+    
+    footer {
+        position: relative;
+        top: 600px;
+    }
+ 
+}
